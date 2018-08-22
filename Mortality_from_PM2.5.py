@@ -11,7 +11,7 @@ x = c[1]
 y = c[2]
 a = 'Year'
 b = 'Mortality from PM2.5 (Per 1,000,000 inhabitants)'
-df = pd.read_csv(r'C:\Users\jitpa\Desktop\EXP_MORSC_07082018033853673.csv')
+df = pd.read_csv(r'C:\Users\jitpa\Desktop\CSV files python\EXP_MORSC_07082018033853673.csv')
 
 
 aus = df.loc[0:5, c]
